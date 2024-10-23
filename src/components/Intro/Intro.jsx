@@ -27,11 +27,10 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
-          <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          <span style={{ color: darkMode ? "white" : "" }}></span>
+          <span>Ken Lopez</span>
+          <span className="i-description">
+            I am currently studying computer science at California State University San Marcos. I possess over 5 years of hands-on experience in the field. I was an experienced team leader in the Marine Corps. I am a resourceful and reliable electronics technician with a strong track record of troubleshooting, organizing, and repairing various types of basic electronics and communications equipment.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -46,9 +45,9 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
+        {/* <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={boy} alt="" /> */}
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -64,7 +63,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Research" text2="Assitant" />
         </motion.div>
 
         {/* animation */}

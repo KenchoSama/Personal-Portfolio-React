@@ -1,7 +1,7 @@
 .Intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 /* left side styling */
@@ -111,4 +111,19 @@
     /* display: none; */
     top: -7rem !important;;
   }
+}
+.i-description {
+  color: black; /* Makes it darker */
+  font-size: 2rem; /* Increase the font size */
+  font-weight: bold; /* Make the text bolder */
+  line-height: 1.5; /* Adds better spacing between lines */
+}
+.i-description {
+  color: black; /* Default for light mode */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dark-mode .i-description {
+  color: white; /* Changes color in dark mode */
 }
